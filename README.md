@@ -24,3 +24,5 @@ cd KAGEcryptor
 
 # Installer les dépendances
 pip install -r requirements.txt
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/KAGEHACK3R/KAGEcryptor-?color=%23f34f7e)](https://github.com/KAGEHACK3R/KAGEcryptor-/releases/latest)
