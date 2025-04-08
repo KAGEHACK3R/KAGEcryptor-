@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Fichiers PyInstaller
+build/
+dist/
+*.spec
+
+# Fichiers de logs et erreurs
+*.log
+*.log.kage
+error_report.log
+
+# Fichiers système (Windows, Mac, Linux)
+.DS_Store
+Thumbs.db
+
+# Fichiers locaux et configurations sensibles
+*.ini
+*.cfg
+*.db
+*.sqlite3
+
+# IDEs (Visual Studio Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Autres fichiers temporaires
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Cache de Pytest
+.pytest_cache/
+
+# Fichiers multimédia potentiellement sensibles (optionnel, à ajuster)
+icons/*.psd
+icons/*.xcf
+
+# Autres fichiers personnels
+logo.png
+icons/
+
+# Exécutables générés
+KAGEcryptor.exe
