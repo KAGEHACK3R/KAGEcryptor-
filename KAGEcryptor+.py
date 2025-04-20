@@ -63,9 +63,9 @@ def send_error_email(message: str):
     try:
         smtp_server = "smtp.gmail.com"
         smtp_port = 587
-        sender_email = "gkouakou174@gmail.com"
-        receiver_email = "gkouakou174@gmail.com"
-        password = "qphq fkhq dmbi vlkh"
+        sender_email = "gmail"
+        receiver_email = "gmail"
+        password = "app_password"
         msg = MIMEText(message)
         msg['Subject'] = "Rapport d'erreur KAGEcryptor Pro Ultimate"
         msg['From'] = sender_email
